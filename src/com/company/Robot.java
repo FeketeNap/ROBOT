@@ -26,9 +26,7 @@ public class Robot implements RobotMoves {
     @Override
     public int right(int[][] arr, int index) {
         indexJ = index +1;
-        System.out.println(indexJ);
 
-        System.out.println(indexJ);
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
@@ -51,9 +49,7 @@ public class Robot implements RobotMoves {
     @Override
     public int left(int[][] arr, int index) {
         indexJ = index -1;
-        System.out.println(indexJ);
 
-        System.out.println(indexJ);
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
@@ -76,9 +72,7 @@ public class Robot implements RobotMoves {
     @Override
     public int up(int[][] arr, int index) {
         indexI = index -1;
-        System.out.println(indexI);
 
-        System.out.println(indexI);
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
@@ -104,9 +98,7 @@ public class Robot implements RobotMoves {
     @Override
     public int down(int[][] arr, int index) {
         indexI = index +1;
-        System.out.println(indexI);
 
-        System.out.println(indexI);
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
